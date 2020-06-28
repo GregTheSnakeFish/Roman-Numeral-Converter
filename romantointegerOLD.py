@@ -42,7 +42,6 @@ while m < n-1:
     else:
         negtotal = negtotal + tenttotal + ref[roman[m]]
         tenttotal = 0
-    print(total, negtotal, tenttotal)
     m = m + 1
 
 total = total + tenttotal + ref[roman[m]] - negtotal
